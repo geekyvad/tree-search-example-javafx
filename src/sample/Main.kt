@@ -19,5 +19,5 @@ class Main : Application() {
 
 }
 
-fun main(args: Array<String>) = Application.launch(*args)
+fun main(args: Array<String>) = Application.launch(Main::class.java, *args)
 
