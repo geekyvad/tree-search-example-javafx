@@ -1,0 +1,27 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="sample.Controller"
+    stylesheets="@sample.css">
+
+    <padding>
+        <Insets top="20" right="20" left="20" bottom="20"/>
+    </padding>
+
+    <TextField
+        fx:id="search"
+        AnchorPane.topAnchor="5" AnchorPane.rightAnchor="5" AnchorPane.leftAnchor="5"
+    />
+
+    <TreeView
+        fx:id="treeView"
+        AnchorPane.topAnchor="45" AnchorPane.rightAnchor="5"
+        AnchorPane.leftAnchor="5" AnchorPane.bottomAnchor="5"
+    />
+
+</AnchorPane>

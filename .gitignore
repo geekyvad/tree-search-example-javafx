@@ -1,3 +1,8 @@
+/.idea/workspace.xml
+.gradle
+build
+out
+
 *.class
 
 # Mobile Tools for Java (J2ME)
